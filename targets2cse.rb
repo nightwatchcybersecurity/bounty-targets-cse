@@ -65,7 +65,7 @@ params = {}
 opt_parser = OptionParser.new do |opts|
   opts.banner = "Usage: targets2cse.rb [options]"
 
-  opts.on("-tag", "--cse_tag CSE_TAG",
+  opts.on("-t", "--tag CSE_TAG",
       "CSE tag to use for file generation") do |tag|
     params[:tag] = tag
   end
@@ -79,7 +79,7 @@ end
 # Check parameters
 opt_parser.parse!
 if !params[:tag]
-  puts "-tag parameter is required to run this script"
+  puts "-t parameter is required to run this script"
   exit
 else
   print "Using tag: #{params[:tag]}\n\n"
