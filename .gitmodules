@@ -1,0 +1,3 @@
+[submodule "bounty-targets-data"]
+	path = bounty-targets-data
+	url = https://github.com/arkadiyt/bounty-targets-data.git
