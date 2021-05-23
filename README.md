@@ -54,7 +54,8 @@ of user content that may pollute your search results.
 
 # Limits
 As per [CSE documentation](https://developers.google.com/custom-search/docs/annotations#annotations-limits), there is a limit of 2,000 entries per file
-and 5,000 entries per search engine.
+and 5,000 entries per search engine. To avoid limits, you
+may need to split up the resulting files before uploading.
 
 # Feedback
 Please use Github issues and pull requests to provide suggestions and feedback.

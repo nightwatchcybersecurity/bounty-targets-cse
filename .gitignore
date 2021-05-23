@@ -3,3 +3,4 @@
 .DS_Store
 bounty-targets-data/
 cse-data/*.tsv
+.idea/
